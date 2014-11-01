@@ -95,6 +95,7 @@ void setup() {
 
   // set initial LED state
   digitalWrite(ledPin, ledState);
+  digitalWrite(PowerSwitchTail,LOW);
   
   //the lights have an address on the menu.  You can set the address on the screen.  The channel that you choose is...
   //  So 2 x lights with 5 channels each, the first 1 is 1-5, and the second one begins at 6, so whatever the channels were
